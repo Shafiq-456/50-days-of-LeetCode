@@ -22,3 +22,10 @@ class Solution:
     def isPalindrome(self, x: int) -> bool:
        
         return str(x)== str(x)[::-1]
+
+Remove Element 
+
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        while val in nums:
+            nums.remove(val)
