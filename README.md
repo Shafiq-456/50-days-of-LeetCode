@@ -14,8 +14,6 @@ Solutions in this repository are primarily implemented in:
 
 - **Python**
 - **Java**
-- **SQL**
-- **R**
 
 ## 📂 Repository Structure
 
