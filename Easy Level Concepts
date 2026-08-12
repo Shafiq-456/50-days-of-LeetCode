@@ -74,14 +74,14 @@ class Solution:
 
         return result
             
-Length of Last Word
+Length of Last Word                              LC:58
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.strip()
         s = s.split(" ")
         return len(s[-1])
 
-Isomorphic Strings 
+Isomorphic Strings                               LC:205
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
          map1={}
@@ -105,7 +105,7 @@ class Solution:
 
          return True 
 
-Best Time to Buy and Sell Stock
+Best Time to Buy and Sell Stock                    LC:121
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         min_price = float('inf')
@@ -115,7 +115,7 @@ class Solution:
             max_profit = max(max_profit, current_price - min_price)   
         return max_profit
 
-Move Zeros
+Move Zeros                                         LC:283
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         j=0
