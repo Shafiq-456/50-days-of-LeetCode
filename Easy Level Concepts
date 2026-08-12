@@ -1,4 +1,4 @@
-Find Missing Elements LC:3731
+Find Missing Elements                        LC:3731
 class Solution:
     def findMissingElements(self, nums: List[int]) -> List[int]:
         s = nums[0]
@@ -15,26 +15,26 @@ class Solution:
         return miss
 
 
-Palindrome Number 
+Palindrome Number                             LC:9
 class Solution:
     def isPalindrome(self, x: int) -> bool:
        
         return str(x)== str(x)[::-1]
 
-Remove Element 
+Remove Element                               LC:27 
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         while val in nums:
             nums.remove(val)
 
-Smallest Divisible Digit Product I
+Smallest Divisible Digit Product I            LC:3345
 class Solution:
     def smallestNumber(self, n: int, t: int) -> int:
 
         for i in range(n, n + 10):
             if reduce(mul, map(int,str(i))) %t == 0: return i
 
-3 Sum
+3 Sum                                         LC:15
 class Solution:
     def threeSum(self, nums):
         nums.sort()
