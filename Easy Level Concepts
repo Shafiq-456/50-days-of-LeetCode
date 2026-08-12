@@ -115,3 +115,13 @@ class Solution:
             max_profit = max(max_profit, current_price - min_price)   
         return max_profit
 
+Move Zeros
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        j=0
+        for i in range(len(nums)):
+            if nums[i]:
+                nums[i],nums[j] = nums[j],nums[i]
+                j+=1
+        return nums 
+        
