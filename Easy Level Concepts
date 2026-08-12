@@ -124,4 +124,13 @@ class Solution:
                 nums[i],nums[j] = nums[j],nums[i]
                 j+=1
         return nums 
-        
+
+Find All Numbers Disappered in Array                LC:448
+class Solution:
+    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        seen=set(nums)
+        res=[]
+        for i in range(1,len(nums)+1):
+            if i not in seen:
+                res.append(i)
+        return res
