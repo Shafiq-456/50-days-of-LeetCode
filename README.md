@@ -13,7 +13,6 @@ Welcome to my **50 Days of LeetCode** challenge repository! This project tracks 
 Solutions in this repository are primarily implemented in:
 
 - **Python**
-- **Java**
 
 ## 📂 Repository Structure
 
