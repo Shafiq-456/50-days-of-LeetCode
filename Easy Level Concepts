@@ -165,3 +165,17 @@ class Solution(object):
                 arr2.append(nums[i])
 
         return arr1 + arr2
+
+Contains Duplicate                                   LC:217
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        seen=set()
+        for num in nums:
+            if num in seen:
+                return True
+            seen.add(num)
+        
+        return False     
+    
+
+                     
