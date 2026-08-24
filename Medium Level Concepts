@@ -1,0 +1,22 @@
+ZigZag Conversation       LC:6
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1 or numRows >= len(s):
+            return s
+
+        lst = [[] for _ in range(numRows)]
+
+        row = 0
+        step = 1
+
+        for char in s:
+            lst[row].append(char)
+
+            if row == numRows - 1:
+                step = -1
+            elif row == 0:
+                step = 1
+
+            row += step
+
+        return "".join("".join(r) for r in lst)
