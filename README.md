@@ -210,7 +210,7 @@ For each problem, I try to follow a structured process:
           Optimize if Possible
 ```
 
-The objective is to understand **the pattern behind the problem**, rather than memorizing individual solutions.
+The objective is to understand **the pattern behind the problems, rather than memorizing individual solutions.
 
 ---
 
