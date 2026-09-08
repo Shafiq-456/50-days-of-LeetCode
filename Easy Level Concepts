@@ -157,3 +157,7 @@ class Solution:
             if xMax-s<=k: return i
         return -1
                      
+Count Commas in range            LC:3870
+class Solution:
+    def countCommas(self, n: int) -> int:
+        return max(0, n-999)
