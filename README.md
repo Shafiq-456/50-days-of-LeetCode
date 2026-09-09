@@ -29,7 +29,7 @@ The purpose of this challenge is not just to increase the number of solved probl
 * 🧩 Problem-Solving Patterns
 * 💼 Technical Interview Preparation
 
-> **Consistency over perfection. One problem every day, one step closer to becoming a better problem solver.**
+> **Consistency over Perfection. One problem every day, one step closer to becoming a better problem solver.**
 
 ---
 
