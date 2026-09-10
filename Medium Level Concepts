@@ -216,3 +216,5 @@ class Solution:
             start *= 1000
 
         return totalCommas
+
+Count Nodes Equal to Average of Subtree         LC:2265
