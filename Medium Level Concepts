@@ -272,3 +272,9 @@ class Solution:
                 d[(r_b - r_a, c_b - c_a)] += 1
 
         return max(d.values() or [0])
+
+Number of Sets of K Non-Overlapping Line Segments     LC:1621
+class Solution:
+    def numberOfSets(self, n: int, k: int) -> int:
+        MOD = 10**9 + 7
+        return math.comb(n + k - 1, 2 * k) % MOD
