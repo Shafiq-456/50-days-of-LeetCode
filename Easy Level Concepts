@@ -1,4 +1,4 @@
-Find Missing Elements                        LC:3731
+Find Missing Elements                        LC:372
 class Solution:
     def findMissingElements(self, nums: List[int]) -> List[int]:
         s = nums[0]
