@@ -39,7 +39,7 @@ The real objective is to build the ability to:
 * 📊 Analyze time and space complexity
 * 🐍 Improve Python problem-solving skills
 * 🎯 Develop consistency through daily practice
-* 💼 Prepare for technical interviews and coding assessments
+* 💼 Prepare for technical interviews and coding assessment.
 
 > **Consistency compounds. Every problem solved is another pattern understood.**
 
