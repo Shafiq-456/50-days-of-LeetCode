@@ -96,7 +96,7 @@ Throughout the challenge, the problems cover different concepts and problem-solv
 
 ### 🔹 Algorithms & Patterns
 
-* Two Pointers
+* Two Pointer
 * Sliding Window
 * Binary Search
 * Prefix Sum
